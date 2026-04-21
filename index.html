@@ -1,54 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title> Elisée | Développeur & Créateur </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Pro - Elisée</title>
     <style>
         body {
-            background-color: #f4f7f6; /* Un gris très clair pour le fond */
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-        h1 {
-            color: #2c3e50;
-            font-size: 3rem;
-        }
-        p {
-            color: #7f8c8d;
-            font-size: 1.2rem;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f9;
+            margin-top: 50px;
         }
         button {
-            background-color: #3498db; /* Un beau bleu */
+            background-color: #007bff;
             color: white;
             border: none;
             padding: 15px 30px;
-            font-size: 1rem;
-            border-radius: 50px; /* Bouton arrondi */
+            font-size: 18px;
+            border-radius: 10px;
             cursor: pointer;
-            transition: background-color 0.3s;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin: 10px;
+            transition: 0.3s;
+            width: 250px;
         }
         button:hover {
-            background-color: #2980b9; /* Change de couleur au survol */
+            background-color: #0056b3;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     </style>
 </head>
 <body>
-    <h1>Bonjour 👋, Je suis Elisée </h1>
-    <p>Passionné par la programmation Python et le developpement web.</p>
 
-    <div style="margin-top: 20px;"><a
-    href="https://github.com"
-    target="_blank"
-    style="text-decoration: none;"><bouton>Mon Linkedln</bouton>
-    </a> 
-    <a href="https://gethub.com/elisee-code" 
-    target="_blank"
-    style="text-decoration: none;"><bouton>Mon GitHub</bouton>
-    </a>
+    <h1>Bienvenue sur mon site !</h1>
+    <p>Je suis développeur et voici mes liens professionnels :</p>
+
+    <div class="container">
+        <a href="https://github.com/kayembee666" target="_blank">
+            <button>Mon LinkedIn</button>
+        </a>
+
+        <a href="https://github.com/kayembee666" target="_blank">
+            <button>Mon GitHub</button>
+        </a>
     </div>
-       
+
+</body>
+</html>
